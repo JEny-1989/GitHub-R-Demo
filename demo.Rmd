@@ -1,0 +1,16 @@
+---
+title: "demo"
+author: "Jeniffer Fernandes"
+date: "November 21, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# ChickWeight
+```{r}
+summary(ChickWeight)
+```
+
